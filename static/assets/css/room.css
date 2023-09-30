@@ -1,0 +1,273 @@
+                    .room-gallery {
+                        margin-top: 20px;
+                    }
+                    
+                    .grid-container {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                        grid-gap: 10px;
+                    }
+                    
+                    .grid-item img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    .amenities-list {
+                        list-style-type: disc;
+                        margin-top: 10px;
+                        padding-left: 20px;
+                    }
+                    
+                    .facilities__wrapper {
+                        margin-top: 40px;
+                    }
+                    
+                    @media(min-width: 768px)and (max-width: 1199px) {
+                        .container {
+                            padding-left: 21px;
+                            padding-right: 21px
+                        }
+                        .row {
+                            margin-left: -9px;
+                            margin-right: -9px
+                        }
+                        .col-xs-1,
+                        .col-sm-1,
+                        .col-md-1,
+                        .col-lg-1,
+                        .col-xs-2,
+                        .col-sm-2,
+                        .col-md-2,
+                        .col-lg-2,
+                        .col-xs-3,
+                        .col-sm-3,
+                        .col-md-3,
+                        .col-lg-3,
+                        .col-xs-4,
+                        .col-sm-4,
+                        .col-md-4,
+                        .col-lg-4,
+                        .col-xs-5,
+                        .col-sm-5,
+                        .col-md-5,
+                        .col-lg-5,
+                        .col-xs-6,
+                        .col-sm-6,
+                        .col-md-6,
+                        .col-lg-6,
+                        .col-xs-7,
+                        .col-sm-7,
+                        .col-md-7,
+                        .col-lg-7,
+                        .col-xs-8,
+                        .col-sm-8,
+                        .col-md-8,
+                        .col-lg-8,
+                        .col-xs-9,
+                        .col-sm-9,
+                        .col-md-9,
+                        .col-lg-9,
+                        .col-xs-10,
+                        .col-sm-10,
+                        .col-md-10,
+                        .col-lg-10,
+                        .col-xs-11,
+                        .col-sm-11,
+                        .col-md-11,
+                        .col-lg-11,
+                        .col-xs-12,
+                        .col-sm-12,
+                        .col-md-12,
+                        .col-lg-12 {
+                            padding-left: 9px;
+                            padding-right: 9px
+                        }
+                    }
+                    
+                    @media(max-width: 767px) {
+                        .container {
+                            padding-left: 15px;
+                            padding-right: 15px
+                        }
+                        .row {
+                            margin-left: -11px;
+                            margin-right: -11px
+                        }
+                        .col-xs-1,
+                        .col-sm-1,
+                        .col-md-1,
+                        .col-lg-1,
+                        .col-xs-2,
+                        .col-sm-2,
+                        .col-md-2,
+                        .col-lg-2,
+                        .col-xs-3,
+                        .col-sm-3,
+                        .col-md-3,
+                        .col-lg-3,
+                        .col-xs-4,
+                        .col-sm-4,
+                        .col-md-4,
+                        .col-lg-4,
+                        .col-xs-5,
+                        .col-sm-5,
+                        .col-md-5,
+                        .col-lg-5,
+                        .col-xs-6,
+                        .col-sm-6,
+                        .col-md-6,
+                        .col-lg-6,
+                        .col-xs-7,
+                        .col-sm-7,
+                        .col-md-7,
+                        .col-lg-7,
+                        .col-xs-8,
+                        .col-sm-8,
+                        .col-md-8,
+                        .col-lg-8,
+                        .col-xs-9,
+                        .col-sm-9,
+                        .col-md-9,
+                        .col-lg-9,
+                        .col-xs-10,
+                        .col-sm-10,
+                        .col-md-10,
+                        .col-lg-10,
+                        .col-xs-11,
+                        .col-sm-11,
+                        .col-md-11,
+                        .col-lg-11,
+                        .col-xs-12,
+                        .col-sm-12,
+                        .col-md-12,
+                        .col-lg-12 {
+                            padding-left: 11px;
+                            padding-right: 11px
+                        }
+                    }
+                    
+                    @media(min-width: 768px) {
+                        .col-sm-1,
+                        .col-sm-2,
+                        .col-sm-3,
+                        .col-sm-4,
+                        .col-sm-5,
+                        .col-sm-6,
+                        .col-sm-7,
+                        .col-sm-8,
+                        .col-sm-9,
+                        .col-sm-10,
+                        .col-sm-11,
+                        .col-sm-12 {
+                            float: left
+                        }
+                    }
+                    
+                    .m-color-box--illustration {
+                        width: 45px;
+                        height: 45px;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-shrink: 0;
+                        overflow: hidden
+                    }
+                    
+                    .m-color-box--illustration img {
+                        max-width: 100%;
+                        max-height: 100%
+                    }
+                    
+                    .m-color-box--illustration svg {
+                        font-size: 20px
+                    }
+                    
+                    .m-color-box--text {
+                        padding-left: 15px;
+                        line-height: 2.4rem
+                    }
+                    
+                    [dir=rtl] .m-color-box--text {
+                        padding-right: 15px
+                    }
+                    
+                    .amenities-container {
+                        color: #54647b;
+                        border-radius: 30px
+                    }
+                    
+                    .amenities-container.half-width,
+                    .amenities-container.content-width {
+                        display: grid
+                    }
+                    
+                    .amenities-container.half-width.amenities--4-col,
+                    .amenities-container.content-width.amenities--4-col {
+                        grid-template-columns: 1fr 1fr 1fr 1fr
+                    }
+                    
+                    @media(max-width: 767px) {
+                        .amenities-container.half-width.amenities--4-col,
+                        .amenities-container.content-width.amenities--4-col {
+                            grid-template-columns: 1fr
+                        }
+                    }
+                    
+                    @media(max-width: 1199px)and (min-width: 768px) {
+                        .amenities-container.half-width.amenities--4-col,
+                        .amenities-container.content-width.amenities--4-col {
+                            grid-template-columns: 1fr 1fr
+                        }
+                    }
+                    
+                    .amenities-container.half-width.amenities--3-col,
+                    .amenities-container.content-width.amenities--3-col {
+                        grid-template-columns: 1fr 1fr 1fr
+                    }
+                    
+                    @media(max-width: 767px) {
+                        .amenities-container.half-width.amenities--3-col,
+                        .amenities-container.content-width.amenities--3-col {
+                            grid-template-columns: 1fr
+                        }
+                    }
+                    
+                    @media(max-width: 1199px)and (min-width: 768px) {
+                        .amenities-container.half-width.amenities--3-col,
+                        .amenities-container.content-width.amenities--3-col {
+                            grid-template-columns: 1fr 1fr
+                        }
+                    }
+                    
+                    .amenities-container.half-width.amenities--2-col,
+                    .amenities-container.content-width.amenities--2-col {
+                        grid-template-columns: 1fr 1fr
+                    }
+                    
+                    @media(max-width: 767px) {
+                        .amenities-container.half-width.amenities--2-col,
+                        .amenities-container.content-width.amenities--2-col {
+                            grid-template-columns: 1fr
+                        }
+                    }
+                    
+                    .amenities-container.half-width.amenities--1-col,
+                    .amenities-container.content-width.amenities--1-col {
+                        grid-template-columns: 1fr
+                    }
+                    
+                    .amenities-container.half-width .amenities-item,
+                    .amenities-container.content-width .amenities-item {
+                        width: 100%;
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        width: 100%;
+                        margin-bottom: 20px
+                    }
+                    
+                    .col-sm-12 {
+                        width: 100%;
+                    }

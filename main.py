@@ -10,15 +10,13 @@ from werkzeug.utils import secure_filename
 from wtforms.validators import InputRequired
 
 
-
 # Initialize Flask application
 app=Flask(__name__)
 
 # Set Flask application configurations
 app.config['SECRET_KEY']='david'
+app.config['UPLOAD_FOLDER']='static/files'
 
-# Configuration to specify the static folder
-app.static_folder = 'static'
 
 
 # Define the homepage route
@@ -33,5 +31,36 @@ def home():
 
 
 
+@app.route('/about', methods=['GET', 'POST'])
+def about():
+    return render_template('about.html')
+
+
+@app.route('/rooms', methods=['GET', 'POST'])
+def rooms():
+    return render_template('rooms.html')
+@app.route('/executive', methods=['GET', 'POST'])
+def executive():
+    return render_template('executive.html')
+
+@app.route('/exclusive', methods=['GET', 'POST'])   
+def exclusive():
+    return render_template('exclusive.html')
+
+@app.route('/standard', methods=['GET', 'POST'])
+def standard():
+    return render_template('standard.html')
+
+@app.route('/contact', methods=['GET', 'POST'])
+def contact():
+    return render_template('contact.html')
+    
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    return render_template('login.html')
+
+@app.route('/signup', methods=['GET', 'POST'])
+def signup():
+    return render_template('signup.html')
 if __name__ == '__main__':
     app.run(debug=True)
