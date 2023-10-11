@@ -13,7 +13,7 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/gijgo.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -25,7 +25,11 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css"> -->
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='assets/css/services.css') }}">
+    <script src="{{ url_for( 'static', filename='assets/js/services.js') }}"></script>
+
 </head>
 
 <body>
@@ -97,6 +101,23 @@
         <!-- Header End -->
     </header>
     <main>
+        <div class="image-grid">
+            
+                <img class="image-grid-col-2 image-grid-row-2" src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 1">
+                <img src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 2">
+                <img src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 3">
+                <img src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 3">
+                <img src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 3">
+                <img src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 3">
+                <img src="static/assets/img/gallery/gallery2.jpg" alt="Hotel Room 3">
+                
+           
+            <!-- Add more photos here -->
+        </div>
+    
+   
+
+      
 
         <!-- slider Area Start-->
         <div class="slider-area">
@@ -399,6 +420,7 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+        <script src="{{ url_for( 'static', filename='assets/js/services.js') }}"></script>
         
     </body>
 </html>
