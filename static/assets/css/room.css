@@ -52,7 +52,30 @@
                     }
                         
                     }
+                    .image-grid > video {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform 0.3s ease-in-out; /* Added transition for the hover effect */
+                    }
+                    .image-grid > video:hover {
+                        transform: scale(1.05); /* Scale up the image or video slightly on hover */
+                        cursor: pointer;
+                    }
+
+                    .book-button {
+                        background-color: #dca73a; /* Background color for the button */
+                        color: #fff; /* Text color */
+                        padding: 10px 20px; /* Adjust padding as needed */
+                        font-size: 18px; /* Adjust font size as needed */
+                        border: none;
+                        cursor: pointer;
+                    }
                     
+                    /* Center-align the button */
+                    .container.text-center {
+                        text-align: center;
+                    }
                     
                     .amenities-list {
                         list-style-type: disc;
