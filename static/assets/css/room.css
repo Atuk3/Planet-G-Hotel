@@ -76,6 +76,29 @@
                     .container.text-center {
                         text-align: center;
                     }
+
+                    
+                    .container {
+    
+    padding: 20px; /* Add padding to create some space around the content */
+    width: 80%; /* Set the container width as desired */
+    margin: 0 auto; /* Center the container horizontally on the page */
+    
+  }
+
+  p {
+    margin: 0; /* Remove default margin for paragraphs */
+    font-size: 16px; /* Set the font size for paragraphs */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #333; /* Set the text color */
+  }
+  .rates-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #e60000; /* Choose the text color you prefer */
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
                     
                     .amenities-list {
                         list-style-type: disc;

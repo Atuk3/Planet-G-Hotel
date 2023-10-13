@@ -70,5 +70,8 @@ def services():
 @app.route('/blog', methods=['GET', 'POST'])
 def blog():
     return render_template('blog.html')
+@app.route('/T&Cs', methods=['GET', 'POST'])
+def termsandcondition():
+    return render_template('termsandconditions.html')
 if __name__ == '__main__':
     app.run(debug=True)
