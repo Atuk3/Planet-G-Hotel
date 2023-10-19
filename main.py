@@ -73,6 +73,9 @@ def blog():
 @app.route('/T&Cs', methods=['GET', 'POST'])
 def termsandcondition():
     return render_template('termsandconditions.html')
+@app.route('/admin', methods=['GET', 'POST'])
+def admin():
+    return render_template('admin.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

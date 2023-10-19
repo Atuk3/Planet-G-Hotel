@@ -1,0 +1,51 @@
+/* Basic Styling */
+body {
+    padding-top: 15px;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: sticky;
+    top: 60px;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Add specific styles for your admin dashboard components and sections as needed */
+
+/* Example: Styling buttons */
+.btn {
+    margin-right: 5px;
+}
+
+/* Example: Styling tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #343a40;
+    color: #fff;
+}
