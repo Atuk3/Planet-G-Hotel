@@ -1,3 +1,3 @@
-# Planet-G-Hotel
+# Planet G & Pinkis Suites Hotel
 
-### Planet G Hotel
+![Alt text](image.png)
